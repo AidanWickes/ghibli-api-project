@@ -2,10 +2,10 @@
 const { src, dest, watch, series } = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
 const autoprefixer = require("gulp-autoprefixer");
-const minify = require("gulp-minify");
+const minify = require("gulp-clean-css");
 const terser = require("gulp-terser");
 const imageMin = require("gulp-imagemin");
-const imageWebp = require("gulp-imagewebp");
+const imageWebp = require("gulp-webp");
 
 // define tasks
 // compile sass
