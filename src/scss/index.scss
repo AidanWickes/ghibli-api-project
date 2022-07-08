@@ -11,16 +11,17 @@
 }
 
 html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
 }
 
 body {
     min-height: 100%;
-    margin: 0;
     font-family: "Dosis", sans-serif;
-    font-weight: 400;
     color: #666;
     background: #F6F6F6;
+    line-height: 1.6;
 }
 
 /* Typography */
@@ -55,7 +56,6 @@ img {
 
         .card {
             margin: 1rem;
-            border: 1px solid gray;
             background: white;
             box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
             border-radius: 12px;
