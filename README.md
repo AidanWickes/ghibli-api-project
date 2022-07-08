@@ -1,4 +1,8 @@
-#Ghibli Films API Project
+# Studio Ghibli Films API Project
 
-Node version: 16.15.0
+This project uses the Studio Ghibli API to list the films using Javascript
+
+## Node Versions
+
+Node version: 16.15.0  
 NPM version: 8.5.5
