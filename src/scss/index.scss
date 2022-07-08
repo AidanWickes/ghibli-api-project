@@ -1,1 +1,56 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+@import url("https://fonts.googleapis.com/css?family=Dosis:400,700");
+
+
+/* Defaults */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+    color: #666;
+    background: #F6F6F6;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: #000;
+}
+
+/* Styles */
+
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1rem;
+    border: 1px solid gray;
+  }
+  
+@media screen and (min-width: 600px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+  
+@media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+}
